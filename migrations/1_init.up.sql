@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS Users (
     PasswordHash VARCHAR(255) NOT NULL,
     FirstName VARCHAR(50),
     MiddleName VARCHAR(50),
-    LastName VARCHAR(50),
+    LastName VARCHAR(50) Null,
     ProfileImageURL VARCHAR(255),
     SignIn BOOLEAN DEFAULT FALSE, -- Поле для отслеживания статуса входа
     IsBlocked BOOLEAN DEFAULT FALSE, -- Поле для блокировки пользователя
