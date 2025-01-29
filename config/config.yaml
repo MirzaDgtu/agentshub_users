@@ -1,5 +1,5 @@
 env: "local"
-storage_path: "postgres://pmp:pmp1226@localhost:5432/firstcode_auth?sslmode=disable"
+storage_path: "postgres://pmp:pmp1226@localhost:5432/ah_users?sslmode=disable"
 grpc:
   port: 44044
   timeout: 5s
